@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">39512fd74f032300f4aab5e18110c784</block>
+        <connected_to>2a95e86e-30d1-4a6b-8891-736bed051fe4</connected_to>
+        <display_text/>
+        <flow display_value="NeedIt Fulfillment">ec6ae75f4f032300f4aab5e18110c798</flow>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>3.4</order>
+        <parent_ui_id>9b701f83-4bff-4c9b-ba9a-3d882316575e</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>bupathirajha.am</sys_created_by>
+        <sys_created_on>2019-01-22 17:08:49</sys_created_on>
+        <sys_id>306ae75f4f032300f4aab5e18110c7d0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_306ae75f4f032300f4aab5e18110c7d0</sys_update_name>
+        <sys_updated_by>bupathirajha.am</sys_updated_by>
+        <sys_updated_on>2019-01-22 17:08:49</sys_updated_on>
+        <ui_id>a8e81214-009a-4434-944e-5e0a3a78b539</ui_id>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=306ae75f4f032300f4aab5e18110c7d0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>306ae75f4f032300f4aab5e18110c7d0</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bupathirajha.am</sys_created_by>
+        <sys_created_on>2019-01-22 17:08:49</sys_created_on>
+        <sys_id>3c6ae75f4f032300f4aab5e18110c7d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bupathirajha.am</sys_updated_by>
+        <sys_updated_on>2019-01-22 17:08:49</sys_updated_on>
+        <value>{{Created_1.current.u_request_type}}=hr</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>306ae75f4f032300f4aab5e18110c7d0</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bupathirajha.am</sys_created_by>
+        <sys_created_on>2019-01-22 17:08:49</sys_created_on>
+        <sys_id>fc6ae75f4f032300f4aab5e18110c7d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bupathirajha.am</sys_updated_by>
+        <sys_updated_on>2019-01-22 17:08:49</sys_updated_on>
+        <value>Human Resource Request</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+</record_update>
